@@ -74,17 +74,17 @@ int main() {
 
     switch (waluta){
         case '1':
-            wynik = zl * 4.97;
+            wynik = zl / 4.97;
             break;
         case '2':
-            wynik = zl * 3.8428;
+            wynik = zl / 3.8428;
             break;
         case '3':
-            wynik = zl * 4.5;
+            wynik = zl / 4.5;
             break;
     }
 
-    cout << "Przeliczona kwota:" << wynik;
+    cout << "Przeliczona kwota:"  << wynik;
 
     return 0;
 }
